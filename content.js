@@ -38,6 +38,10 @@
 // }
 
 //console.log(getTextNodesIn(document.body, false));
+
+
+
+
 var x = document.getElementsByTagName('p');
 var biasRes="";
 var paras = [];
@@ -48,3 +52,6 @@ for(var i = 0; i< x.length; i++)
     paras.push(str);
 }
 console.log(paras);
+
+
+//chrome.runtime.openOptionsPage()

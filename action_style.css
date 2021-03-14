@@ -1,0 +1,53 @@
+.head{
+    font-family: 'Ranchers', cursive;
+    border: 2px solid red;
+    border-radius: 20px;
+    background-color: rgb(58, 55, 55);
+    color: blanchedalmond;
+    font-size: 30px;
+}
+.heading{
+    display: inline-block;
+    padding-left: 43%;
+}
+.set{
+    margin-right: 20px;
+    margin-top: 7px;
+}
+a img :hover{
+    height: 120px;
+}
+.scratched{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-align: center;
+
+}
+.displayed{
+    display: inline-block;
+    height: 100px;
+    width: 200px;
+    border: 2px solid black;
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    text-align: center;
+
+}
+.dropdown{
+    
+    width: 10%; 
+    margin: 2px auto;
+    margin-top: 20%;
+
+}
+button.btn.btn-primary.dropdown-toggle{
+    padding: 10px 60px;
+}
+
+body {width: 500px; height: 500px;}
