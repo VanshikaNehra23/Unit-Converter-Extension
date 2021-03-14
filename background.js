@@ -2,7 +2,7 @@ chrome.runtime.onMessage.addListener(function(message)
 {
     switch (message.action) 
     {
-        case "openOptionsPage":
+        case "clicked_settings_icon":
             openOptionsPage();
             break;
         default:
