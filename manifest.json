@@ -1,0 +1,15 @@
+{ 
+    "manifest_version": 3,
+    "name": "Unit Converter",
+    "version": "0.0.1",
+
+    "description": "A Unit Converter",
+    "content_scripts": [
+        {
+          "matches": [
+            "<all_urls>"
+          ],
+          "js": ["jquery-3.6.0.min.js", "content.js"]
+        }
+      ]
+}
